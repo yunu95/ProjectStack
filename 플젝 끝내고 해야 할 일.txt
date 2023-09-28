@@ -1,0 +1,4 @@
+YunuGraphicsInterface의 const 선언이 필요한 함수들에 const 붙이기
+리소스를 파일명으로 관리하는 것을 guid로 관리하게 하기
+yunutyEngine의 동작을 다중 스레드에서 관리하기 용이하게 만들어야 한다. AddGameobject, DestroyGameobject, AddComponent와 같은 경우,
+다른 스레드(ex : Editor)에서 실행했을 때 엔진 업데이트 주기 후에 필요한 동작이 수행되도록 만들어야 한다.
